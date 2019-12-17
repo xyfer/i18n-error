@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "i18n-error": {
@@ -56,6 +56,14 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "fr": {
+              "aot": true,
+              "outputPath": "dist/i18n-error-fr/",
+              "i18nFile": "./messages.fr.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "fr",
+              "i18nMissingTranslation": "error"
             }
           }
         },
